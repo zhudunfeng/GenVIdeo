@@ -26,5 +26,5 @@ class Audio_Process():
 
 if __name__ == '__main__':
     num=32
-    mp3='C:\\Users\\Administrator\\PycharmProjects\\GenVIdeo\\src\\result.mp3'
+    mp3='..\\Lib\\lib_audio\\audio_example.mp3'
     Audio_Process().Audio_Process(mp3,32)
