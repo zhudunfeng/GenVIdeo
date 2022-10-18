@@ -1,5 +1,26 @@
 # GenVIdeo
 一种基于python编写的视频自动生成程序<br>
+
+项目安装<br/>
+- 创建虚拟环境
+```shell
+python -m venv venv
+```
+- 切换到虚拟环境
+```shell
+./venv/Scripts/activate
+```
+- 安装依赖
+```shell
+python install -r requirements.txt
+```
+如果个人修改了依赖版本，可以冻结自己的依赖
+```shell
+pip freeze > requirements.txt
+```
+
+- 数据库可以根据DataBase.py自己进行配置
+
 <h2>一、已经实现的功能：</h2>
 <h3>1、文字转视频</h3>
  任意输入或者利用爬虫爬取一段文字语料，首先将其生成音频，然后将这段音频生成视频并添加字幕。<br>
